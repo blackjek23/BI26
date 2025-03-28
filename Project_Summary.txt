@@ -1,0 +1,79 @@
+## Portfolio Manager Characterization  
+
+### **1️⃣ User Profiling & Risk Categorization**  
+- **Questionnaire-Based Risk Assessment**  
+  - Users answer a series of questions to determine their risk tolerance.  
+  - **Example Questions:**  
+    1. What is your investment time horizon?
+       - (a) Less than 3 years (1 point)
+       - (b) 3-7 years (3 points)
+       - (c) More than 7 years (5 points)
+    2. How do you react to a market drop of 10% in a month?
+       - (a) Sell immediately (1 point)
+       - (b) Hold and observe (3 points)
+       - (c) Buy more (5 points)
+    3. What is your main investment goal?
+       - (a) Capital preservation (1 point)
+       - (b) Balanced growth and income (3 points)
+       - (c) High growth (5 points)
+  - **Scoring System:**  
+    - 3-6 points: Conservative investor  
+    - 7-11 points: Moderate investor  
+    - 12-15 points: Aggressive investor  
+
+### **2️⃣ ETF Classification by Risk Level & Allocation Rules**  
+- **Conservative Portfolio (Low Risk, Stable Growth)**  
+  - **70% Low-risk ETFs:**  
+    - XLU (Utilities) - 20%  
+    - XLP (Consumer Staples) - 20%  
+    - XLRE (Real Estate) - 15%  
+    - XLE (Energy) - 15%  
+  - **30% Broad-market ETFs:**  
+    - SPY (S&P 500) - 30%  
+
+- **Moderate Portfolio (Balanced Growth & Risk)**  
+  - **50% Broad-market ETFs:**  
+    - SPY (S&P 500) - 30%  
+    - RSP (Equal-weighted S&P 500) - 20%  
+  - **25% Low-risk ETFs:**  
+    - XLU (Utilities) - 10%  
+    - XLP (Consumer Staples) - 10%  
+    - XLF (Financials) - 10%  
+  - **25% High-risk ETFs:**  
+    - QQQ (Nasdaq 100) - 10%  
+    - SOXX (Semiconductors) - 10%  
+
+- **Aggressive Portfolio (High Growth, High Volatility)**  
+  - **60% High-risk ETFs:**  
+    - QQQ (Nasdaq 100) - 20%  
+    - SOXX (Semiconductors) - 20%  
+    - IGV (Software) - 10%  
+    - XLK (Technology) - 10%  
+  - **30% Broad-market ETFs:**  
+    - SPY (S&P 500) - 20%  
+    - RSP (Equal-weighted S&P 500) - 10%  
+  - **10% Defensive ETFs:**  
+    - XLP (Consumer Staples) - 10%  
+
+### **3️⃣ Historical Performance & Market Benchmarking**  
+- Compare **historical returns & drawdowns** for each ETF over 15-20 years.  
+- Benchmark portfolios against **S&P 500 (SPY)** to measure outperformance.  
+- Evaluate **volatility metrics** (standard deviation, beta).  
+
+### **4️⃣ Portfolio Allocation Strategy**  
+- Portfolio weightings based on risk assessment scores.
+- Rebalancing strategy: Define how often allocations should be adjusted (e.g., annually or semi-annually).  
+
+### **5️⃣ Historical Scenario Analysis**  
+- **Market Crash Performance:** Evaluate how each portfolio performed during major downturns:  
+  - **2008 Financial Crisis:** Compare drawdowns and recovery time.  
+  - **2020 COVID Crash:** Assess how different ETFs reacted to rapid market drops.  
+  - **Dot-com Bubble (2000-2002):** Examine impact on tech-heavy portfolios.  
+- **Bull vs. Bear Market Comparison:** Compare how the portfolios performed in prolonged bull vs. bear markets.  
+- **Recovery Speed:** Measure how long each ETF or portfolio took to recover after a crisis.
+
+### **6️⃣ Dashboard & Visualization Requirements**  
+- **User Profile Overview** → Display risk tolerance score & recommended portfolio.  
+- **Historical Performance Charts** → ETF & portfolio returns vs. S&P 500.  
+- **Sector Exposure Analysis** → Pie chart of portfolio allocation.  
+- **Volatility & Risk Indicators** → Display standard deviation, max drawdown.  
