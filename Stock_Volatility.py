@@ -17,7 +17,7 @@ def calculate_volatility(file_path):
     df['Returns'] = df['Close'].pct_change()
     
     volatility = np.std(df['Returns'].dropna()) * 100
-    return volatility
+    return round(volatility, 2)
 
 def main():
     volatility_scores = {}
