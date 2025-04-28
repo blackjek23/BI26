@@ -1,12 +1,14 @@
 import yfinance as yf
 import pandas as pd
+import csv
 
 def download_stocks_data():
     end_date = '2024-12-31'
 
-    with open('stocks.txt', 'r') as f:
-        for ticker in f:
-            Symbol = ticker.strip()
+    with open('ETF_list.csv', newline='') as csvfile:
+        spamreader = csv.DictReader(csvfile)
+        for row in spamreader:
+            Symbol= (row['Ticker'])
             df = yf.download(Symbol, end=end_date, interval="1d")
             df.columns = [col[0] for col in df.columns]
             df.to_csv(f'./datasets/{Symbol}.csv')

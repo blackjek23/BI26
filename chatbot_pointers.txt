@@ -1,2 +1,3 @@
 the original question- ETF portfolio management and the difference between risk tolerances
-chatGPT rephrase- How does risk tolerance impact ETF portfolio management, and what strategies can be used to optimize asset allocation based on different risk profiles?"
+chatGPT rephrase-   How does risk tolerance impact ETF portfolio management,
+                    and what strategies can be used to optimize asset allocation based on different risk profiles?"
