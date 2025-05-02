@@ -1,0 +1,20 @@
+--  select Aggressive potfolio (Score 27–32)
+USE [BI26-DWH];
+
+SELECT *
+FROM XLF
+
+SELECT *
+FROM XLE
+
+SELECT *
+FROM SLV
+
+SELECT *
+FROM CPER
+
+SELECT *
+FROM SOXX
+
+SELECT *
+FROM USO

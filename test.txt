@@ -1,0 +1,36 @@
+🟩 Conservative (Score 8–12)
+['XLP', 'GLD', 'XLV', 'SPY', 'XLU']
+0.25, 0.25, 0.2, 0.15, 0.15
+| XLP | 25% |
+| GLD | 25% |
+| XLV | 20% |
+| SPY | 15% |
+| XLU | 15% |
+
+🟨 Moderate (Score 13–19)
+['RSP', 'XLRE', 'XLI', 'XLY', 'XLC']
+[0.2, 0.2, 0.2, 0.2, 0.2]
+| RSP  | 20% |
+| XLRE | 20% |
+| XLI  | 20% |
+| XLY  | 20% |
+| XLC  | 20% |
+
+🟧 Growth (Score 20–26)
+['XLB', 'IWM', 'XLK', 'IGV', 'QQQ']
+[0.2, 0.2, 0.2, 0.2, 0.2]
+| XLB | 20% |
+| IWM | 20% |
+| XLK | 20% |
+| IGV | 20% |
+| QQQ | 20% |
+
+🟥 Aggressive (Score 27–32)
+['XLF', 'XLE', 'SLV', 'CPER', 'SOXX','USO']
+[0.2, 0.15, 0.15, 0.15, 0.15, 0.2]
+| XLF  | 20% |
+| XLE  | 15% |
+| SLV  | 15% |
+| CPER | 15% |
+| SOXX | 15% |
+| USO  | 20% | 

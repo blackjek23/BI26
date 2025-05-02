@@ -1,0 +1,14 @@
+-- select Growth potfolio (Score 20–26)
+USE [BI26-DWH];
+
+SELECT *
+FROM XLB
+
+SELECT *
+FROM IWM
+
+SELECT *
+FROM XLK
+
+SELECT *
+FROM QQQ
